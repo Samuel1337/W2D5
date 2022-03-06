@@ -1,0 +1,84 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1 {    
+    font-size: 38px;
+}
+h2 {
+    font-size: 32px;
+}
+.ingredients-list{
+    list-style: square inside;
+}
+ol {
+    list-style: disc inside;
+}
+header > img{
+    width: 100px;
+}
+ul > li > a{
+    text-decoration: none;
+    color: inherit;
+}
+*{
+    background-color:blanchedalmond;
+}
+#reviews{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#name{
+    background-color:lightgrey;   
+}
+#name:hover {
+    background-color:floralwhite;
+}
+#expertise{
+    background-color:lightgrey;   
+}
+#expertise:hover {
+    background-color:floralwhite;
+}
+#review{
+    background-color:lightgrey;   
+}
+#review:hover {
+    background-color:floralwhite;
+}
+input[type="radio"]{
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(../assets/stars.png);
+    vertical-align: bottom;
+}
+input[type="radio"]:hover{
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(../assets/stars.png);
+    background-position-y: 60px;
+    vertical-align: bottom;
+}
+input[type="radio"]:checked{
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(../assets/stars.png);
+    background-position-y: 30px;
+    vertical-align: bottom;
+}
+#reviews input:last-child{
+    background-color: gold;
+}
+#reviews input:last-child:hover{
+    background-color: darkgoldenrod;
+}
+#reviews h2 + .user_review{
+    border-top: 1px solid black;
+}
